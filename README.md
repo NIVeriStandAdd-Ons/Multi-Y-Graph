@@ -1,4 +1,4 @@
-## IP Name ##
+## Multi-Y Graph ##
 
 **Multi-Y Graph** is a workspace object which enables the user to plot multiple Y channels verses a single X channel.
 
