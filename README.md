@@ -8,7 +8,7 @@ LabVIEW 2013.
 
 ### Built Availability ###
 
-Builds of this IP are available on the [NI VeriStand Add-ons Community](https://decibel.ni.com/content/docs/DOC-32299).
+Builds of this IP not available.
 
 ### Quality, Limitations ###
 
@@ -17,6 +17,15 @@ This IP has been in use since 2013.
 ### Dependencies ###
 
 Structured Error Handler
+
+### Instructions for Use ###
+
+1. Select which channel you would like to use for your X.
+2. Select which channels you would like to plot against X for your Y list.
+3. Set the Decimation, UDP Buffer Size, History Length (seconds), and Update Rate.
+4. Format using the Format & Precision tab.
+
+**Note** When you configure the Multi-Y Graph a memory buffer will be created according to the following equation: ((History Length (seconds) X PCL Rate (Hz))/(Decimation X Data Processing Loop Decimation)) X # of Channels X 64 bits. Verify that you have the available memory and increase Decimation if you do not.
 
 ### License ###
 
